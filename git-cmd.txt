@@ -1,5 +1,12 @@
-GIT
 Git
 ---
 
+3. 
+; new commit with message using vi
+$ git commit
 
+; new commit with message
+$ git commit -m 'Created test file w00t.txt'
+
+; add more files to current commit
+$ git commit --amend -m 'type si krub'
