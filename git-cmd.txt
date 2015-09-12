@@ -28,8 +28,6 @@ $git log —oneline
 $git log —oneline —decorate  //log show color
 $git log —oneline —decorate  —graph
 $git shortlog
-
-
-
-
+$git log --grep="[filter]"
+$git log -S "[content]"
 
