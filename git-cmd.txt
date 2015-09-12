@@ -1,5 +1,9 @@
 GIT
-Git
----
 
 
+Add
+$git add <file>
+
+Commit
+$git commit
+$git commit -m "Comment"
