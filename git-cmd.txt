@@ -1,31 +1,37 @@
-Git
----
-1.
+GIT
+
+Status
 show current status in repository
 $ git status
 
+Add
+$git add <file>
 
+Commit
+$git commit
 
-3. 
-; new commit with message using vi
-$ git commit
+New commit with message
+$git commit -m "Comment"
 
-; new commit with message
-$ git commit -m 'Created test file w00t.txt'
-
-; add more files to current commit
+Add more files to current commit
 $ git commit --amend -m 'type si krub'
 
-4. 
+Log
+$git log
+$git log  —author=<username> //Log by user
+$git log  —grep=“message"
+$git log  -s”content"
+$git log  -G”content"
+$git log  —after,before=“2015-12-1” //log in date range
+$git log  —since=2.months.ago,—until=2days.ago
+$git log  —no-merges
+$git log  —merge
+$git log  -p
+$git log —stat
+$git log —oneline
+$git log —oneline —decorate  //log show color
+$git log —oneline —decorate  —graph
+$git shortlog
+$git log --grep="[filter]"
+$git log -S "[content]"
 
-$ git log --stat
-; show diff in stat
-
-git log --oneline --decorate --graph
-git log --author=pich4ya
-
-; grep from log message
-git log --grep="[filter]"
-
-; grep from file content
-git log -S "[content]"
