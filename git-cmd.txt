@@ -42,3 +42,9 @@ $ git diff
 Dif committed status
 $ git diff --cached
 
+
+ignote files
+$ .gitignore
+	*.class
+
+
