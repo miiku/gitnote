@@ -10,3 +10,14 @@ $ git commit -m 'Created test file w00t.txt'
 
 ; add more files to current commit
 $ git commit --amend -m 'type si krub'
+
+4. 
+
+git log --oneline --decorate --graph
+git log --author=pich4ya
+
+; grep from log message
+git log --grep="[filter]"
+
+; grep from file content
+git log -S "[content]"
