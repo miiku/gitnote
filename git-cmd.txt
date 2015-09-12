@@ -13,6 +13,9 @@ $ git commit --amend -m 'type si krub'
 
 4. 
 
+$ git log --stat
+; show diff in stat
+
 git log --oneline --decorate --graph
 git log --author=pich4ya
 
