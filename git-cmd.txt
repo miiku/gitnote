@@ -43,7 +43,7 @@ Dif committed status
 $ git diff --cached
 
 
-ignote files
+ignore some files which will not push
 $ .gitignore
 	*.class
 
