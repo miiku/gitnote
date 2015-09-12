@@ -7,3 +7,20 @@ $git add <file>
 Commit
 $git commit
 $git commit -m "Comment"
+
+Log
+$git log
+$git log  —author=<username> //Log by user
+$git log  —grep=“message"
+$git log  -s”content"
+$git log  -G”content"
+$git log  —after,before=“2015-12-1” //log in date range
+$git log  —since=2.months.ago,—until=2days.ago
+$git log  —no-merges
+$git log  —merge
+$git log  -p
+$git log —stat
+$git log —oneline
+$git log —oneline —decorate  //log show color
+$git log —oneline —decorate  —graph
+$git shortlog
