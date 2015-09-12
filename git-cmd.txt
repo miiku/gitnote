@@ -1,5 +1,10 @@
 Git
 ---
+1.
+show current status in repository
+$ git status
+
+
 
 3. 
 ; new commit with message using vi
