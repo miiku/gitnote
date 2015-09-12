@@ -1,12 +1,16 @@
 GIT
 
-
 Add
 $git add <file>
 
 Commit
 $git commit
+
+New commit with message
 $git commit -m "Comment"
+
+Add more files to current commit
+$ git commit --amend -m 'type si krub'
 
 Log
 $git log
@@ -24,3 +28,8 @@ $git log —oneline
 $git log —oneline —decorate  //log show color
 $git log —oneline —decorate  —graph
 $git shortlog
+
+
+
+
+
