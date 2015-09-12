@@ -35,3 +35,10 @@ $git shortlog
 $git log --grep="[filter]"
 $git log -S "[content]"
 
+Diff
+Diff current status
+$ git diff
+
+Dif committed status
+$ git diff --cached
+
